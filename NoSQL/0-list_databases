@@ -1,12 +1,2 @@
-#!/usr/bin/env python3
-from pymongo import MongoClient
-
-# MongoDB bağlantısı (localhost ve varsayılan port)
-client = MongoClient('mongodb://127.0.0.1:27017/')
-
-# Veritabanlarını listele
-databases = client.list_database_names()
-
-# Her veritabanını yazdır
-for db in databases:
-    print(db)
+// my comment
+show dbs
